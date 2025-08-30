@@ -14,8 +14,8 @@ const Dashboard = () => {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Top Coins</h1>
-      <div className="grid gap-4">
-        <div className="flex justify-between">
+      <div className="grid">
+        <div className="flex justify-between mb-4">
           <p className="flex gap-2">
             <span>#</span>
             <span>Market cap</span>
